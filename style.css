@@ -1,0 +1,62 @@
+/*
+Theme Name: PortfolioPro
+Author: Scott Tyson
+Version: 1.1.1
+*/
+
+body {
+  background: white;
+}
+
+footer {
+    text-align: center;
+}
+
+.container {
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+#jumbo {
+    background-image: url("./img/egret.jpg");
+    background-position: right center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 20%;
+    padding: 0px;
+}
+
+.name {
+    font-weight: bold;
+    padding-left: 2%;
+    padding-top: 20px;
+}
+
+.title {
+    color: wheat;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    padding-left: 2%;
+}
+
+.navigation {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 41%;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a{
+    display: block;
+    color: #4d4225;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+
+}
